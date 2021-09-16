@@ -4,10 +4,12 @@ html    {
     background-size: cover;
 }
 
-#snickerdoodle {
-    margin-left: 35%;
+#snickerdoodle  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
-    height: auto;
+    height: 380px;
 }
 
 footer {
@@ -21,7 +23,7 @@ h1 {
 }
 
 a {
-    color: springgreen;
+    color: rgb(58, 114, 86);
 }
 
 a:hover {
@@ -34,5 +36,24 @@ a:hover {
 }
 
 li {
-    color: springgreen;
+    color: rgb(58, 114, 86);
+}
+
+.food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.recipe-list {
+    margin-top: 15px;
+    margin-left: auto;   
+    margin-right: auto;
+    width: 30%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    background-color: wheat;
 }
