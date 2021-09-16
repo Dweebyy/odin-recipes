@@ -5,6 +5,7 @@ html    {
 }
 
 #snickerdoodle {
+    margin-left: 35%;
     width: 30%;
     height: auto;
 }
@@ -16,4 +17,22 @@ footer {
 
 h1 {
     color: aqua;
+    text-align: center;
+}
+
+a {
+    color: springgreen;
+}
+
+a:hover {
+    color: royalblue;
+    background-color: sandybrown;
+    border-radius: 20%;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+li {
+    color: springgreen;
 }
